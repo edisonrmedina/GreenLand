@@ -1,0 +1,82 @@
+:root {
+    --verdePrincipal : #8CB799;
+    --verdeClaro     : #D0E1D6;
+}
+
+.navCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: max-content;
+    padding: 20px 40px 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navCont img {
+    width: 20%;
+}
+
+.navlinkCont {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.navLink {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: var(--verdePrincipal);
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.navLink:hover {
+    color: #CDE0D2;
+}
+
+.active {
+    color: white;
+    background-color: var(--verdePrincipal);
+    border-radius: 0 80px;
+    transition: all 1s;
+}
+
+.buttonCont {
+    display: flex;
+    gap: 10px;
+}
+
+.buttonCont button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    font-size: 15px;
+}
+
+.buttonCont button:hover {
+    cursor: pointer;
+}
+
+.buttonLog {
+    border: none;
+    background-color: var(--verdePrincipal);
+    color: white;
+}
+
+.buttonSign {
+    border-color: var(--verdePrincipal);
+    border-style: solid;
+    background-color: white;
+    color: var(--verdePrincipal);
+}
+
+@media (max-width: 800px) {
+    .navCont img {
+        width: 50%;
+    }
+    
+    .buttonCont {
+        display: none;
+    }
+}
