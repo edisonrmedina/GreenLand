@@ -7,7 +7,10 @@ import {FacebookLoginButton, GoogleLoginButton } from "react-social-login-button
 import { useDispatch, useSelector } from "react-redux";
 import { authData } from "../../redux/action";
 import { alertAcept } from "../SweetAlert/SweetAlert";
+import eyeIcon from "../../assets/eyeUser.jpg";
 import loader from "../../assets/loaderGif.gif";
+import checkIcon from "../../assets/checkUser.jpg";
+import passwordAssets from "../../assets/passwordUser.jpg";
 
 const { VITE_SERVER_URL, VITE_FB_APP_ID, VITE_GG_APP_ID } = import.meta.env;
 

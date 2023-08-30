@@ -1,71 +1,76 @@
-.reviews-container {
+.reviewsContainer {
     margin-top: 20px;
   }
   
-  .reviews-container h2 {
+  .reviewsContainerH2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  .reviews-container a {
+  .reviewsContainerA {
     color: var(--verdePrincipal);
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
   }
   
-  .review-item {
+  .reviewItem {
     margin-bottom: 20px;
   }
+
+  .linkReviews {
+    text-decoration: none;
+    color: var(--verdePrincipal);
+  }
   
-  .review-item .delete-button {
+  .deleteButton {
     color: var(--verdePrincipal);
     text-decoration: none;
     font-size: 14px;
     margin-left: 10px;
   }
   
-  .review-item .delete-button:hover {
+  .deleteButton:hover {
     text-decoration: underline;
   }
   
-  .star-icons {
+  .starIcons {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
   }
   
-  .star-icons span {
+  .starIcons span {
     cursor: pointer;
   }
   
-  .star-icons svg {
+  .starIcons svg {
     width: 16px;
     height: 16px;
     fill: var(--verdePrincipal);
     margin-right: 4px;
   }
   
-  .review-form {
+  .reviewForm {
     margin-top: 20px;
   }
   
-  .review-form h3 {
+  .reviewForm h3 {
     font-size: 18px;
     margin-bottom: 10px;
   }
   
-  .review-form .success-message {
+  .reviewForm .successMessage {
     color: var(--verdePrincipal);
     margin-bottom: 10px;
   }
   
-  .review-form .error-message {
+  .reviewForm .errorMessage {
     color: red;
     margin-bottom: 10px;
   }
   
-  .review-form textarea {
+  .reviewFormTextarea {
     width: 100%;
     padding: 10px;
     border: 1px solid var(--verdePrincipal);
@@ -73,7 +78,7 @@
     margin-bottom: 10px;
   }
   
-  .review-form button {
+  .reviewFormButton {
     background-color: var(--verdePrincipal);
     color: #000000;
     padding: 10px 20px;
@@ -82,7 +87,7 @@
     cursor: pointer;
   }
   
-  .review-form button:disabled {
+  .reviewForm button:disabled {
     background-color: #cccccc;
     cursor: not-allowed;
   }
@@ -91,4 +96,16 @@
     border: 1px solid var(--verdePrincipal);
     background-color: white;
     color: black;
+}
+
+.starIconsSvgFilled {
+  fill: var(--verdePrincipal);
+}
+
+.starIconsSvgHalf {
+  fill: var(--verdePrincipal);
+}
+
+.starIconsSvgEmpty {
+  fill: var(--verdePrincipal);
 }

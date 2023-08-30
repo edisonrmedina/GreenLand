@@ -3,7 +3,11 @@ import { useNavigate } from "react-router-dom";
 import style from "./SignUp.module.css";
 import axios from "axios";
 import { alertAcept } from "../SweetAlert/SweetAlert";
+import eyeIcon from "../../assets/eyeUser.jpg";
 import loader from "../../assets/loaderGif.gif";
+import checkIcon from "../../assets/checkUser.jpg";
+import passwordAssets from "../../assets/passwordUser.jpg";
+
 import { useSelector } from "react-redux";
 
 const { VITE_SERVER_URL } = import.meta.env;

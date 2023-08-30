@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useParams, Link } from 'react-router-dom';
 import { BsStarFill, BsStarHalf, BsStar } from 'react-icons/bs';
 import styled from './Reviews.module.css';
+const { VITE_SERVER_URL } = import.meta.env;
+import { alertConfirm } from '../SweetAlert/SweetAlert'
 
 const Reviews = () => {
   const { id } = useParams();
@@ -15,7 +17,7 @@ const Reviews = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await axios.get(`http://localhost:3001/reviews/product/${id}`);
+        const response = await axios.get(`${VITE_SERVER_URL}/reviews/product/${id}`);
         setReviews(response.data);
       } catch (error) {
         console.error(error);
@@ -40,16 +42,12 @@ const Reviews = () => {
         return;
       }
 
-      const response = await axios.post('http://localhost:3001/reviews', {
+      const response = await axios.post(`${VITE_SERVER_URL}/reviews/`, {
         productId: id,
         rating: rating,
         reviewText: reviewText,
         date: new Date().toISOString(),
-        user: {
-          id: userId,
-          name: userName,
-          image: userImage
-        }
+        userId,
       });
       if (response.status === 201) {
         // La reseña se envió correctamente
@@ -87,50 +85,50 @@ const Reviews = () => {
   };
 
   return (
-    <div className={styled.reviews-container}>
-      <h2>Reviews</h2>
-      <Link to={`/reviews/${id}`} className={styled.link-reviews}>Read {reviews.length} Reviews</Link>
+    <div className={styled.reviewsContainer}>
+      <h2 className={styled.reviewsContainerH2}>Reviews</h2>
+      <Link to={`/reviews/${id}`} className={styled.linkReviews}>Read {reviews.length} Reviews</Link>
   
       {/* Renderiza las estrellas y las reseñas individualmente */}
       {reviews.map((review) => (
-        <div className={styled.review-item} key={review.id}>
+        <div className={styled.reviewItem} key={review.id}>
           {/* Renderiza la información de la reseña */}
           {/* Renderiza el componente DeleteReview */}
-          <button className={styles.buttonDelete} onClick={handleDelete}>
-              Delete Review
+          <button className={styled.buttonDelete} onClick={handleDeleteReview}>
+            Delete Review
           </button>
         </div>
       ))}
   
       {/* Muestra las estrellas */}
-      <div className={styled.star-icons}>
+      <div className={styled.starIcons}>
         <h3>Leave a Review</h3>
-        {successMessage && <p className={styled.success-message}>{successMessage}</p>}
-        {errorMessage && <p className={styled.error-message}>{errorMessage}</p>}
+        {successMessage && <p className={styled.successMessage}>{successMessage}</p>}
+        {errorMessage && <p className={styled.errorMessage}>{errorMessage}</p>}
         <div>
           {[1, 2, 3, 4, 5].map((value) => (
             <span key={value} onClick={() => handleRatingChange(value)}>
               {value <= rating ? (
-                <BsStarFill className={styled.star-icon-filled} />
+                <BsStarFill className={styled.starIconsSvgFilled} />
               ) : value - 0.5 === rating ? (
-                <BsStarHalf className={styled.star-icon-half} />
+                <BsStarHalf className={styled.starIconsSvgHalf} />
               ) : (
-                <BsStar className={styled.star-icon-empty} />
+                <BsStar className={styled.starIconsSvgEmpty} />
               )}
             </span>
           ))}
         </div>
-        {/* Muestra el formulario para escribir la reseña */}
-        <textarea
-          className={styled.review-form-textarea}
-          value={reviewText}
-          onChange={handleReviewTextChange}
-          placeholder="Write your review..."
-        />
-        <button className={styled.review-form-button} onClick={handleSubmitReview} disabled={reviewText.length > 200}>
-          Submit Review
-        </button>
       </div>
+      {/* Muestra el formulario para escribir la reseña */}
+      <textarea
+        className={styled.reviewFormTextarea}
+        value={reviewText}
+        onChange={handleReviewTextChange}
+        placeholder="Write your review..."
+      />
+      <button className={styled.reviewFormButton} onClick={handleSubmitReview} disabled={reviewText.length > 200}>
+        Submit Review
+      </button>
     </div>
   );
   };
