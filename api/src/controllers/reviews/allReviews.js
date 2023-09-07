@@ -5,15 +5,17 @@ const allReviews = async (req, res) => {
       include: [
         {
           model: User,
-          attributes: ['name', 'image']
+          attributes: ['id', 'name', 'image']
         },
         {
           model: Product,
           attributes: ['name']
         }
       ],
+      order: ['id'],
       attributes: { exclude: ['userId', 'productId'] }
     })
+    if (!reviews || !reviews.length) return res.status(404).json({ error: 'Reviews not found' })
     res.json(reviews)
   } catch (error) {
     res.status(error.response?.status || 500).json({ error: error.message })

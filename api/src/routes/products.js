@@ -4,6 +4,8 @@ const newProduct = require('../controllers/products/newProduct.js')
 const updateProduct = require('../controllers/products/updateProduct.js')
 const deleteProduct = require('../controllers/products/deleteProduct.js')
 const upload = require('../config/multer.js')
+const { protect } = require('../middlewares/auth.js')
+const { restrictTo } = require('../middlewares/auth.js')
 const { Router } = require('express')
 const router = Router()
 
@@ -11,10 +13,10 @@ router.get('/', allProducts)
 
 router.get('/:id', detailProduct)
 
-router.post('/', upload.fields([{ name: 'image', maxCount: 1 }]), newProduct)
+router.post('/', protect, restrictTo('administrator'), upload.fields([{ name: 'image', maxCount: 1 }]), newProduct)
 
-router.put('/:id', updateProduct)
+router.patch('/:id', protect, restrictTo('administrator'), upload.fields([{ name: 'image', maxCount: 1 }]), updateProduct)
 
-router.delete('/:id', deleteProduct)
+router.delete('/:id', protect, restrictTo('administrator'), deleteProduct)
 
 module.exports = router

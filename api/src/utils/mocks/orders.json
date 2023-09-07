@@ -1,0 +1,61 @@
+[
+    {
+        "totalPrice": 226.8,
+        "status": "approved",
+        "userId": 2,
+        "date": "2023-08-20T22:21:00"
+    },
+    {
+        "totalPrice": 480,
+        "status": "approved",
+        "userId": 3,
+        "date": "2023-09-02T23:12:00"
+    },
+    {
+        "totalPrice": 45,
+        "status": "approved",
+        "userId": 2,
+        "date": "2023-09-03T12:32:00"
+    },
+    {
+        "totalPrice": 191.5,
+        "status": "approved",
+        "userId": 3,
+        "date": "2023-09-03T15:10:00"
+    },
+    {
+        "totalPrice": 660.3,
+        "status": "approved",
+        "userId": 2,
+        "date": "2023-09-04T14:31:00"
+    },
+    {
+        "totalPrice": 583.5,
+        "status": "approved",
+        "userId": 3,
+        "date": "2023-09-04T16:05:00"
+    },
+    {
+        "totalPrice": 60.30,
+        "status": "approved",
+        "userId": 2,
+        "date": "2023-09-04T17:45:00"
+    },
+    {
+        "totalPrice": 600,
+        "status": "approved",
+        "userId": 2,
+        "date": "2023-09-05T08:12:00"
+    },
+    {
+        "totalPrice": 91.6,
+        "status": "approved",
+        "userId": 3,
+        "date": "2023-09-04T10:55:00"
+    },
+    {
+        "totalPrice": 300.4,
+        "status": "approved",
+        "userId": 2
+    }
+]

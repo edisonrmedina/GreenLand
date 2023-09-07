@@ -1,390 +1,390 @@
 [
     {
-        "message": "Excelente producto, cumple con mis expectativas.",
+        "message": "Excellent product, meets my expectations.",
         "rating": 5,
         "userId": 1,
         "productId": 1
     },
     {
-        "message": "Buen producto, pero podría mejorar.",
+        "message": "Good product, but could be improved.",
         "rating": 3,
         "userId": 2,
         "productId": 2
     },
     {
-        "message": "No quedé satisfecho con este producto.",
+        "message": "I was not satisfied with this product.",
         "rating": 2,
         "userId": 3,
         "productId": 1
     },
     {
-        "message": "Me encanta este producto, lo uso todos los días.",
+        "message": "I love this product, I use it every day.",
         "rating": 5,
         "userId": 1,
         "productId": 3
     },
     {
-        "message": "Producto muy útil y de buena calidad.",
+        "message": "Very useful product and of good quality.",
         "rating": 4,
         "userId": 2,
         "productId": 4
     },
     {
-        "message": "Buena calidad y diseño.",
+        "message": "Good quality and design.",
         "rating": 4,
         "userId": 3,
         "productId": 5
     },
     {
-        "message": "Increíble producto, lo recomiendo.",
+        "message": "Incredible product, I recommend it.",
         "rating": 5,
         "userId": 1,
         "productId": 6
     },
     {
-        "message": "No era lo que esperaba, un poco decepcionado.",
+        "message": "It was not what I expected, a bit disappointed.",
         "rating": 2,
         "userId": 2,
         "productId": 7
     },
     {
-        "message": "Gran iniciativa ecológica, me encanta.",
+        "message": "Great ecological initiative, I love it.",
         "rating": 5,
         "userId": 1,
         "productId": 8
     },
     {
-        "message": "No cumple con mis necesidades, el tamaño es muy pequeño.",
+        "message": "Does not meet my needs, the size is too small.",
         "rating": 2,
         "userId": 3,
         "productId": 9
     },
     {
-        "message": "Muy contento con mi compra, llegó en perfecto estado.",
+        "message": "Very happy with my purchase, arrived in perfect condition.",
         "rating": 4,
         "userId": 1,
         "productId": 10
     },
     {
-        "message": "El mejor producto que he adquirido en mucho tiempo.",
+        "message": "The best product I've acquired in a long time.",
         "rating": 5,
         "userId": 2,
         "productId": 11
     },
     {
-        "message": "Cumple con su propósito, pero la calidad podría ser mejor.",
+        "message": "Meets its purpose, but the quality could be better.",
         "rating": 3,
         "userId": 3,
         "productId": 12
     },
     {
-        "message": "Definitivamente una opción ecológica a considerar.",
+        "message": "Definitely an ecological option to consider.",
         "rating": 4,
         "userId": 1,
         "productId": 13
     },
     {
-        "message": "No estoy seguro de su durabilidad, el material parece frágil.",
+        "message": "I'm not sure about its durability, the material seems fragile.",
         "rating": 2,
         "userId": 2,
         "productId": 14
     },
     {
-        "message": "Superó mis expectativas, realmente impresionante.",
+        "message": "It exceeded my expectations, really impressive.",
         "rating": 5,
         "userId": 3,
         "productId": 15
     },
     {
-        "message": "Buen precio por lo que ofrece, lo recomiendo.",
+        "message": "Good price for what it offers, I recommend it.",
         "rating": 4,
         "userId": 1,
         "productId": 16
     },
     {
-        "message": "No estoy convencido, esperaba más calidad.",
+        "message": "I'm not convinced, I expected more quality.",
         "rating": 2,
         "userId": 2,
         "productId": 17
     },
     {
-        "message": "Ideal para quienes buscan opciones sostenibles.",
+        "message": "Ideal for those looking for sustainable options.",
         "rating": 4,
         "userId": 3,
         "productId": 18
     },
     {
-        "message": "Me decepcionó la funcionalidad, no es práctico.",
+        "message": "I'm disappointed with the functionality, it's not practical.",
         "rating": 2,
         "userId": 1,
         "productId": 19
     },
     {
-        "message": "¡Increíblemente útil! No puedo creer que no lo haya obtenido antes.",
+        "message": "Incredibly useful! I can't believe I didn't get it sooner.",
         "rating": 5,
         "userId": 2,
         "productId": 20
     },
     {
-        "message": "Un producto básico, pero cumple con su propósito.",
+        "message": "A basic product, but it serves its purpose.",
         "rating": 3,
         "userId": 3,
         "productId": 21
     },
     {
-        "message": "Me encanta el diseño y la calidad, pero es un poco costoso.",
+        "message": "I love the design and quality, but it's a bit expensive.",
         "rating": 4,
         "userId": 1,
         "productId": 22
     },
     {
-        "message": "No era lo que esperaba, pero podría funcionar para otros.",
+        "message": "It wasn't what I expected, but it could work for others.",
         "rating": 2,
         "userId": 2,
         "productId": 23
     },
     {
-        "message": "Me siento bien apoyando una marca ecológica como esta.",
+        "message": "I feel good supporting an ecological brand like this.",
         "rating": 4,
         "userId": 3,
         "productId": 24
     },
     {
-        "message": "Impresionante calidad, vale cada centavo.",
+        "message": "Impressive quality, worth every penny.",
         "rating": 5,
         "userId": 1,
         "productId": 25
     },
     {
-        "message": "Podría mejorar en términos de durabilidad, pero buen producto en general.",
+        "message": "Could improve in terms of durability, but a good product overall.",
         "rating": 3,
         "userId": 2,
         "productId": 26
     },
     {
-        "message": "No estoy seguro de cómo me siento acerca de esto, no era lo que esperaba.",
+        "message": "I'm not sure how I feel about this, it wasn't what I expected.",
         "rating": 2,
         "userId": 3,
         "productId": 27
     },
     {
-        "message": "Estoy emocionado por el impacto positivo que tiene en el medio ambiente.",
+        "message": "I'm excited about the positive impact it has on the environment.",
         "rating": 4,
         "userId": 1,
         "productId": 28
     },
     {
-        "message": "Me gustaría que tuviera más opciones de tamaño, pero la calidad es buena.",
+        "message": "I would like it to have more size options, but the quality is good.",
         "rating": 4,
         "userId": 2,
         "productId": 29
     },
     {
-        "message": "Una gran alternativa sostenible, lo recomiendo a todos.",
+        "message": "A great sustainable alternative, I recommend it to everyone.",
         "rating": 5,
         "userId": 3,
         "productId": 30
     },
     {
-        "message": "No es exactamente lo que necesitaba, pero tiene sus ventajas.",
+        "message": "It's not exactly what I needed, but it has its advantages.",
         "rating": 3,
         "userId": 1,
         "productId": 31
     },
     {
-        "message": "La calidad no está a la altura de las expectativas.",
+        "message": "The quality doesn't meet expectations.",
         "rating": 2,
         "userId": 2,
         "productId": 32
     },
     {
-        "message": "Realmente me sorprendió lo bien que funciona este producto.",
+        "message": "I was really surprised at how well this product works.",
         "rating": 4,
         "userId": 3,
         "productId": 33
     },
     {
-        "message": "Aunque es eco-friendly, la función principal es deficiente.",
+        "message": "Although it's eco-friendly, the main function is deficient.",
         "rating": 2,
         "userId": 1,
         "productId": 34
     },
     {
-        "message": "Muy contento con mi compra, realmente útil en mi vida diaria.",
+        "message": "Very happy with my purchase, really useful in my daily life.",
         "rating": 5,
         "userId": 2,
         "productId": 35
     },
     {
-        "message": "Un producto promedio, cumple con lo que esperaba.",
+        "message": "An average product, it meets what I expected.",
         "rating": 3,
         "userId": 3,
         "productId": 36
     },
     {
-        "message": "Me encanta el diseño, pero la calidad podría ser mejor.",
+        "message": "I love the design, but the quality could be better.",
         "rating": 4,
         "userId": 1,
         "productId": 37
     },
     {
-        "message": "No era lo que tenía en mente, pero puede ser útil en ciertas situaciones.",
+        "message": "It wasn't what I had in mind, but it can be useful in certain situations.",
         "rating": 3,
         "userId": 2,
         "productId": 38
     },
     {
-        "message": "Apoyo totalmente la sostenibilidad, pero este producto no me convence.",
+        "message": "I fully support sustainability, but this product doesn't convince me.",
         "rating": 2,
         "userId": 3,
         "productId": 39
     },
     {
-        "message": "Realmente me gusta este producto, hace que mi vida sea más fácil.",
+        "message": "I really like this product, it makes my life easier.",
         "rating": 4,
         "userId": 1,
         "productId": 40
     },
     {
-        "message": "No estoy seguro de si valió la pena el precio que pagué.",
+        "message": "I'm not sure if it was worth the price I paid.",
         "rating": 3,
         "userId": 2,
         "productId": 41
     },
     {
-        "message": "No estoy impresionado, esperaba más en términos de calidad.",
+        "message": "I'm not impressed, I expected more in terms of quality.",
         "rating": 2,
         "userId": 3,
         "productId": 42
     },
     {
-        "message": "Una excelente opción para quienes buscan una alternativa ecológica.",
+        "message": "An excellent option for those looking for an ecological alternative.",
         "rating": 5,
         "userId": 1,
         "productId": 43
     },
     {
-        "message": "La funcionalidad no coincide con la descripción, algo decepcionado.",
+        "message": "Functionality doesn't match the description, somewhat disappointed.",
         "rating": 2,
         "userId": 2,
         "productId": 44
     },
     {
-        "message": "Este producto ha superado mis expectativas, lo recomendaré.",
+        "message": "This product has exceeded my expectations, I will recommend it.",
         "rating": 5,
         "userId": 3,
         "productId": 45
     },
     {
-        "message": "Buena relación calidad-precio, se adapta a lo que necesitaba.",
+        "message": "Good value for money, it fits what I needed.",
         "rating": 4,
         "userId": 1,
         "productId": 46
     },
     {
-        "message": "No estoy completamente satisfecho, esperaba algo más duradero.",
+        "message": "I'm not completely satisfied, I expected something more durable.",
         "rating": 3,
         "userId": 2,
         "productId": 47
     },
     {
-        "message": "Un producto ecológico que encaja perfectamente en mi estilo de vida.",
+        "message": "An ecological product that fits perfectly into my lifestyle.",
         "rating": 4,
         "userId": 3,
         "productId": 48
     },
     {
-        "message": "El tamaño no es el adecuado para mis necesidades, un poco decepcionado.",
+        "message": "The size is not suitable for my needs, a bit disappointed.",
         "rating": 2,
         "userId": 1,
         "productId": 49
     },
     {
-        "message": "Me encanta este producto, es exactamente lo que necesitaba.",
+        "message": "I love this product, it's exactly what I needed.",
         "rating": 5,
         "userId": 2,
         "productId": 50
     },
     {
-        "message": "No cumplió mis expectativas, la calidad no es la mejor.",
+        "message": "It didn't meet my expectations, the quality is not the best.",
         "rating": 2,
         "userId": 3,
         "productId": 10
     },
     {
-        "message": "Un gran producto para aquellos que buscan soluciones sostenibles.",
+        "message": "A great product for those looking for sustainable solutions.",
         "rating": 4,
         "userId": 1,
         "productId": 22
     },
     {
-        "message": "Podría ser mejor, el diseño es atractivo pero la funcionalidad falla.",
+        "message": "It could be better, the design is attractive but the functionality fails.",
         "rating": 3,
         "userId": 2,
         "productId": 28
     },
     {
-        "message": "Buen precio y buena calidad, lo recomiendo.",
+        "message": "Good price and good quality, I recommend it.",
         "rating": 4,
         "userId": 3,
         "productId": 35
     },
     {
-        "message": "Satisfecho con mi compra, cumple con lo prometido.",
+        "message": "Satisfied with my purchase, it delivers on its promises.",
         "rating": 4,
         "userId": 1,
         "productId": 50
     },
     {
-        "message": "No era lo que esperaba, la calidad dejó mucho que desear.",
+        "message": "It wasn't what I expected, the quality left much to be desired.",
         "rating": 2,
         "userId": 2,
         "productId": 28
     },
     {
-        "message": "Excelente opción para aquellos interesados en la sostenibilidad.",
+        "message": "An excellent choice for those interested in sustainability.",
         "rating": 5,
         "userId": 3,
         "productId": 17
     },
     {
-        "message": "Buen producto en general, aunque podría ser más duradero.",
+        "message": "A good product overall, although it could be more durable.",
         "rating": 3,
         "userId": 1,
         "productId": 9
     },
     {
-        "message": "Me encanta este artículo, es perfecto para mis necesidades.",
+        "message": "I love this item, it's perfect for my needs.",
         "rating": 5,
         "userId": 2,
         "productId": 36
     },
     {
-        "message": "Podría ser mejor en términos de funcionalidad.",
+        "message": "Could be better in terms of functionality.",
         "rating": 3,
         "userId": 3,
         "productId": 44
     },
     {
-        "message": "Una gran elección para quienes buscan productos ecológicos.",
+        "message": "A great choice for those looking for eco-friendly products.",
         "rating": 4,
         "userId": 1,
         "productId": 7
     },
     {
-        "message": "Me decepcionó, esperaba más por el precio que pagué.",
+        "message": "I was disappointed, I expected more for the price I paid.",
         "rating": 2,
         "userId": 2,
         "productId": 19
     },
     {
-        "message": "Una alternativa interesante, aunque no es muy práctica.",
+        "message": "An interesting alternative, although not very practical.",
         "rating": 3,
         "userId": 3,
         "productId": 25
     },
     {
-        "message": "Cumple con su función, pero la calidad no es excepcional.",
+        "message": "It fulfills its function, but the quality is not exceptional.",
         "rating": 3,
         "userId": 1,
         "productId": 42

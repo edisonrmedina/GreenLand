@@ -1,10 +1,10 @@
 const { getAllProducts } = require('../../utils/getProduct.js')
 
-exports.filterDynamic = async (req, res) => {
+const filterProduct = async (req, res) => {
   // Filtrar por categoría si se proporciona
   const filterCriterias = req.body
   try {
-    let filteredProducts = await getAllProducts()
+    let filteredProducts = await getAllProducts({ active: true })
 
     // Filtrar por categorias
     if (filterCriterias.categories && filterCriterias.categories.length > 0) {
@@ -50,3 +50,5 @@ exports.filterDynamic = async (req, res) => {
     res.status(error.response?.status || 500).json({ error: error.message })
   }
 }
+
+module.exports = filterProduct

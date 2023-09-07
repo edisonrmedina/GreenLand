@@ -1,6 +1,7 @@
 const { User, Role } = require('../database/config')
 const jwt = require('jsonwebtoken')
-
+require('dotenv').config()
+const { JWT_SECRET } = process.env
 exports.protect = async (req, res, next) => {
   try {
     let token
@@ -13,12 +14,11 @@ exports.protect = async (req, res, next) => {
     } else {
       token = req.headers.authorization
     }
-
     if (!token) {
       return res.status(401).json({ error: 'No token, authorization denied' })
     }
 
-    const { id } = jwt.verify(token, process.env.JWT_SECRET)
+    const { id } = jwt.verify(token, JWT_SECRET)
 
     const user = await User.findByPk(id)
 
@@ -35,18 +35,24 @@ exports.protect = async (req, res, next) => {
 
 exports.restrictTo = (...roles) => {
   return async (req, res, next) => {
-    const user = req.user
-    const roleName = await Role.findByPk(user.roleId).then(role => role.name)
+    const token = req.headers.authorization.split(' ')[1]
+    try {
+      const { id } = jwt.verify(token, JWT_SECRET)
+      const user = await User.findByPk(id)
+      const roleName = await Role.findByPk(user.roleId).then(role => role.name)
 
-    if (!user || !roleName) {
-      return res.status(403).json({ error: 'You do not have permission to perform this action' })
-    }
+      if (!user || !roleName) {
+        return res.status(403).json({ error: 'You do not have permission to perform this action' })
+      }
 
-    if (!roles.includes(roleName)) {
-      return res.status(403).json({
-        error: 'You do not have permission to perform this action'
-      })
+      if (!roles.includes(roleName)) {
+        return res.status(403).json({
+          error: 'You do not have permission to perform this action'
+        })
+      }
+      next()
+    } catch (error) {
+      return res.status(401).json({ error })
     }
-    next()
   }
 }

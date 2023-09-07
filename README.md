@@ -54,19 +54,51 @@ npm install
 
 4. Crea la base de datos PostgreSQL llamada **greenland**
 
->Puedes nombrarla como desees; solo ten en cuenta que debes agregar ese nombre que has asignado a la variable **DB_DATABASE** en tu archivo .env
+> Puedes nombrarla como desees; solo ten en cuenta que debes agregar ese nombre que has asignado a la variable **DB_DATABASE** en tu archivo .env
 
-5. duplica el archivo **.env.example** el cual se encuentra en el directorio raíz de la carpeta api y renombra el archivo duplicado como .env
+5. duplica el archivo **.env.example** el cual se encuentra en el directorio raíz de la carpeta api y client y renombra el archivo duplicado como .env
+
+#### Backend
 
 ```bash
-DB_HOST=localhost --> host de la base de datos
-DB_PORT=5432 --> puerto de la base de datos
-DB_USER=postgres --> usuario de la base de datos
-DB_PASSWORD=root --> contraseña de la base de datos
-DB_DATABASE=greenland --> nombre de la base de datos
-SERVER_HOST = localhost --> host del servidor
-PORT = 3001 --> puerto del servidor
-CLIENT_URLS = ['http://localhost:5173'] --> url del cliente para las cors
+# Base de Datos
+DB_HOST=postgres
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=postgres
+DB_DATABASE=greenland
+SERVER_HOST = localhost
+
+
+#Servidor
+SERVER_URL= http://localhost:3001
+PORT = 3001
+CLIENT_URL = https://localhost:5173
+
+#JWT
+JWT_SECRET =
+JWT_LIFETIME = 24h
+
+#Firebase
+API_KEY =
+AUTH_DOMAIN =
+PROJECT_ID =
+STORAGE_BUCKET =
+MESSAGING_SENDER_ID =
+APP_ID =
+
+#mercado pago
+PAY_TOKEN =
+```
+
+#### Frontend
+
+```bash
+VITE_SERVER_URL = http://localhost:3001
+
+#Login
+VITE_FB_APP_ID =
+VITE_GG_APP_ID =
 ```
 
 ## Levantar el Proyecto

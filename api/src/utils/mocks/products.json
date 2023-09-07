@@ -1,399 +1,399 @@
 [
     {
-        "name": "Cafetera Reutilizable",
-        "description": "Cafetera de acero inoxidable para preparar café de manera sostenible",
+        "name": "Reusable Coffee Maker",
+        "description": "Stainless steel coffee maker for preparing coffee sustainably.",
         "price": 19.99,
         "stock": 50,
         "categoryId": 1,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fcafetera-eco.png%201692832059792?alt=media&token=a89582a9-254a-420d-998c-eb649f2842ca"
     },
     {
-        "name": "Set de Pinceles Reciclados",
-        "description": "Conjunto de pinceles para pintura hechos con materiales reciclados",
+        "name": "Recycled Brushes Set",
+        "description": "Set of brushes for painting made from recycled materials.",
         "price": 14.95,
         "stock": 30,
         "categoryId": 2,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fpinceles-eco.png%201692832209457?alt=media&token=110e9e50-fce5-413d-b102-d66a63dc7ba8"
     },
     {
-        "name": "Pañales Biodegradables",
-        "description": "Pañales ecológicos hechos con materiales biodegradables y amigables con el medio ambiente",
+        "name": "Biodegradable Diapers",
+        "description": "Ecological diapers made from biodegradable materials, environmentally friendly.",
         "price": 29.99,
         "stock": 100,
         "categoryId": 3,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fpanal-eco.jpg%201692832234661?alt=media&token=1139b12c-adfa-4cb9-8960-0cc45aceb263"
     },
     {
-        "name": "Jabón Orgánico",
-        "description": "Jabón natural hecho a mano con ingredientes orgánicos para el cuidado de la piel",
+        "name": "Organic Handmade Soap",
+        "description": "Natural handmade soap with organic ingredients for skin care.",
         "price": 8.50,
         "stock": 80,
         "categoryId": 4,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fjabon-aloe-vera.png%201692832276461?alt=media&token=259f737f-0d5d-4990-8cfa-b6708ab7a474"
     },
     {
-        "name": "Arte en Papel Reciclado",
-        "description": "Obra de arte en papel reciclado, contribuyendo a la sostenibilidad y el arte",
+        "name": "Recycled Paper Art",
+        "description": "Artwork on recycled paper, contributing to sustainability and art.",
         "price": 35.00,
         "stock": 20,
         "categoryId": 5,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Farte-papel-eco.jpg%201692832299152?alt=media&token=e182ac2d-c41b-48de-8a8b-2cb370528cb8"
     },
     {
-        "name": "Cargador Solar Portátil",
-        "description": "Cargador solar compacto para dispositivos electrónicos, ideal para viajes y actividades al aire libre",
+        "name": "Portable Solar Charger",
+        "description": "Compact solar charger for electronic devices, ideal for travel and outdoor activities",
         "price": 42.99,
         "stock": 40,
         "categoryId": 6,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fcargador-solar.png%201692832321331?alt=media&token=55f066bf-3a71-4857-8394-53c35bd1d0b7"
     },
     {
-        "name": "Vestido de Algodón Orgánico",
-        "description": "Vestido de diseño moderno hecho de algodón orgánico y sostenible",
+        "name": "Organic Cotton Dress",
+        "description": "Modern design dress made from organic and sustainable cotton.",
         "price": 55.00,
         "stock": 25,
         "categoryId": 7,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fvestido-de-algodon-organico.jpg%201692832344025?alt=media&token=429a6718-57b8-419d-a5f5-e907b1dd3c16"
     },
     {
-        "name": "Set de Semillas Orgánicas",
-        "description": "Kit de semillas orgánicas para iniciar un jardín en casa y fomentar la agricultura urbana",
+        "name": "Organic Seed Kit",
+        "description": "Kit of organic seeds to start a home garden and promote urban agriculture.",
         "price": 12.99,
         "stock": 60,
         "categoryId": 8,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fkit-semillas.png%201692832398484?alt=media&token=bf1f1fc1-2363-4cbb-8ad2-d33bb60e99ed"
     },
     {
-        "name": "Granola Casera",
-        "description": "Granola hecha en casa con ingredientes naturales y orgánicos, perfecta para un desayuno saludable",
+        "name": "Homemade Granola",
+        "description": "Homemade granola with natural and organic ingredients, perfect for a healthy breakfast.",
         "price": 7.25,
         "stock": 70,
         "categoryId": 9,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fgranola-casera.jpg%201692832748476?alt=media&token=9f81580d-bebc-446f-afe6-4b9c9f4d700d"
     },
     {
-        "name": "Juguete de Madera Reciclada",
-        "description": "Juguete de madera reciclada y pintura no tóxica, seguro y divertido para los niños",
+        "name": "Recycled Wood Toy",
+        "description": "Recycled wood toy with non-toxic paint, safe and fun for children.",
         "price": 16.50,
         "stock": 45,
         "categoryId": 20,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fjuguete-madera-eco.jpg%201692832810844?alt=media&token=a6b5c2e1-dbe2-400e-b092-4382c925f513"
     },
     {
-        "name": "Set de Cubiertos de Bambú",
-        "description": "Set de cubiertos reutilizables hechos de bambú, ideales para reducir el uso de plástico",
+        "name": "Bamboo Cutlery Set",
+        "description": "Set of reusable cutlery made from bamboo, ideal for reducing plastic use.",
         "price": 9.99,
         "stock": 60,
         "categoryId": 1,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fcubiertos-eco.jpg%201692832838948?alt=media&token=1c2d01b9-a538-4606-a969-14ae088b3118"
     },
     {
-        "name": "Kit de Teñido Ecológico",
-        "description": "Kit para teñir telas de forma ecológica, utilizando tintes naturales y sostenibles",
+        "name": "Eco-Friendly Dyeing Kit",
+        "description": "Kit for dyeing fabrics ecologically, using natural and sustainable dyes.",
         "price": 18.95,
         "stock": 25,
         "categoryId": 2,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fkit-tenido.eco.jpg%201692832871149?alt=media&token=73cf6910-e861-4f73-bfcc-8b729c0a8526"
     },
     {
-        "name": "Biberones de Vidrio Reciclado",
-        "description": "Biberones de vidrio reciclado y tapas de silicona, seguros para bebés y el medio ambiente",
+        "name": "Recycled Glass Baby Bottles",
+        "description": "Baby bottles made from recycled glass and silicone caps, safe for babies and the environment.",
         "price": 15.50,
         "stock": 40,
         "categoryId": 3,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fbiberon-eco.jpg%201692832893894?alt=media&token=e23257ee-ecb7-420b-8a64-14909b0947b1"
     },
     {
-        "name": "Crema Facial Orgánica",
-        "description": "Crema facial orgánica con ingredientes naturales y certificación ecológica",
+        "name": "Organic Facial Cream",
+        "description": "Organic facial cream with natural ingredients and ecological certification.",
         "price": 24.75,
         "stock": 50,
         "categoryId": 4,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fcrema-eco.jpg%201692832912513?alt=media&token=e3b75842-1a8b-4b2d-853f-9dff4dec9de3"
     },
     {
-        "name": "Escultura de Material Reciclado",
-        "description": "Escultura artística hecha con materiales reciclados, un homenaje a la creatividad sostenible",
+        "name": "Recycled Material Sculpture",
+        "description": "Artistic sculpture made from recycled materials, a tribute to sustainable creativity.",
         "price": 75.00,
         "stock": 10,
         "categoryId": 5,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fescultura-eco.jpg%201692832938599?alt=media&token=5c5103df-e82f-4759-92e8-9d937a354ead"
     },
     {
-        "name": "Altavoz Bluetooth de Bambú",
-        "description": "Altavoz Bluetooth hecho de bambú sostenible, excelente calidad de sonido y diseño ecológico",
+        "name": "Bamboo Bluetooth Speaker",
+        "description": "Bluetooth speaker made from sustainable bamboo, excellent sound quality and eco-friendly design.",
         "price": 59.99,
         "stock": 30,
         "categoryId": 6,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Faltavoz-eco.jpeg%201692832958519?alt=media&token=25e7adc3-d56d-4710-900e-7d18e6aba984"
     },
     {
-        "name": "Zapatos de Algodón Orgánico",
-        "description": "Zapatos casuales hechos de algodón orgánico y suelas recicladas, cómodos y ecológicos",
+        "name": "Organic Cotton Shoes",
+        "description": "Casual shoes made from organic cotton and recycled soles, comfortable and eco-friendly.",
         "price": 65.00,
         "stock": 20,
         "categoryId": 7,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fzapatos-eco.jpg%201692832994724?alt=media&token=3fdae75b-7e8f-46e3-84f9-cca042e976a1"
     },
     {
-        "name": "Huerto Vertical de Hierbas",
-        "description": "Huerto vertical de hierbas para cultivar tus propias plantas aromáticas en espacios reducidos",
+        "name": "Vertical Herb Garden",
+        "description": "Vertical herb garden for growing aromatic plants in small spaces.",
         "price": 32.50,
         "stock": 15,
         "categoryId": 8,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fjardin-vertical.jpg%201692833072671?alt=media&token=92d1ad1d-83e4-460a-b994-9235186b8468"
     },
     {
-        "name": "Chocolates Orgánicos y Veganos",
-        "description": "Chocolates orgánicos y veganos, elaborados con cacao sostenible y endulzantes naturales",
+        "name": "Organic and Vegan Chocolates",
+        "description": "Organic and vegan chocolates made from sustainable cocoa and natural sweeteners.",
         "price": 6.99,
         "stock": 80,
         "categoryId": 9,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fchocolates-eco.jpg%201692833091985?alt=media&token=3ab8af40-51d8-41d4-a6d9-a05e60aadf2b"
     },
     {
-        "name": "Rompecabezas de Madera Reciclada",
-        "description": "Rompecabezas de madera reciclada con formas únicas y colores naturales, entretenimiento consciente",
+        "name": "Recycled Wood Puzzle",
+        "description": "Recycled wood puzzle with unique shapes and natural colors, conscious entertainment.",
         "price": 22.50,
         "stock": 35,
         "categoryId": 20,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-madera.jpg%201692833120560?alt=media&token=a47e499a-1545-4171-8b45-399093ece970"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-madera.jpg%201694018603147?alt=media&token=6d4c5599-b929-4542-afa7-3fbb0b00ec4c"
     },
     {
-        "name": "Licuadora de Energía Solar",
-        "description": "Licuadora portátil con panel solar integrado para preparar bebidas saludables de manera sostenible",
+        "name": "Solar-Powered Blender",
+        "description": "Portable blender with integrated solar panel for preparing healthy drinks sustainably.",
         "price": 49.99,
         "stock": 25,
         "categoryId": 1,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Flicuadora-eco.webp%201692833168920?alt=media&token=be4e21da-6c09-4828-bb33-8d573f2cfad0"
     },
     {
-        "name": "Kit de Bordado Sostenible",
-        "description": "Kit de bordado con hilos reciclados y tela orgánica, fomentando la creatividad consciente",
+        "name": "Sustainable Embroidery Kit",
+        "description": "Embroidery kit with recycled threads and organic fabric, promoting conscious creativity.",
         "price": 16.95,
         "stock": 35,
         "categoryId": 2,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fkit-bordado-eco.jpg%201692833191766?alt=media&token=76b8e08b-2d20-4e8a-998b-d2e0eea8f748"
     },
     {
-        "name": "Pañuelos de Tela Orgánica",
-        "description": "Pañuelos suaves y resistentes hechos de tela orgánica, una alternativa ecológica al papel",
+        "name": "Organic Fabric Handkerchiefs",
+        "description": "Soft and durable handkerchiefs made from organic fabric, an ecological alternative to paper.",
         "price": 9.75,
         "stock": 60,
         "categoryId": 3,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fpanuelo-eco.jpg%201692833211833?alt=media&token=cbb1abfa-bfd8-4f53-8850-37c9dad7af2f"
     },
     {
-        "name": "Protector Solar Biodegradable",
-        "description": "Protector solar biodegradable con ingredientes naturales y envase amigable con el medio ambiente",
+        "name": "Biodegradable Sunscreen",
+        "description": "Biodegradable sunscreen with natural ingredients and environmentally friendly packaging.",
         "price": 12.50,
         "stock": 70,
         "categoryId": 4,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fprotector-solar-eco.jpg%201692833240888?alt=media&token=c3d5bcfd-8c05-4972-be5f-a9aabdda3484"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fprotector-solar-eco.jpg%201694018754848?alt=media&token=79de6241-4e18-4743-bfb9-6be020713e60"
     },
     {
-        "name": "Mural de Arte Reciclado",
-        "description": "Mural artístico elaborado con materiales reciclados, promoviendo la conciencia ecológica",
+        "name": "Recycled Art Mural",
+        "description": "Artistic mural crafted from recycled materials, promoting ecological awareness.",
         "price": 90.00,
         "stock": 15,
         "categoryId": 5,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fmural-reciclado.jpg%201692833257406?alt=media&token=98ac7739-3940-45a9-8a23-0adeaba54e6a"
     },
     {
-        "name": "Lámpara Solar LED",
-        "description": "Lámpara de exterior con energía solar y LED de bajo consumo, iluminación ecológica y eficiente",
+        "name": "Solar LED Lamp",
+        "description": "Outdoor lamp with solar power and low-consumption LED, eco-friendly and efficient illumination.",
         "price": 34.99,
         "stock": 40,
         "categoryId": 6,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Flampara-solar.jpg%201692833278815?alt=media&token=a349c299-409f-4c10-9391-640c590ef884"
     },
     {
-        "name": "Bolso Ecológico de Tela",
-        "description": "Bolso de tela resistente y reutilizable, una alternativa sostenible a las bolsas plásticas",
+        "name": "Eco-Friendly Fabric Bag",
+        "description": "Sturdy and reusable fabric bag, a sustainable alternative to plastic bags.",
         "price": 19.50,
         "stock": 50,
         "categoryId": 7,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fbolsa-eco.jpeg%201692833299331?alt=media&token=84ccaa46-a0ca-486d-9048-7a44f3e4a6c2"
     },
     {
-        "name": "Kit de Cultivo de Vegetales",
-        "description": "Kit completo para cultivar tus propios vegetales en casa, fomentando la alimentación sana y local",
+        "name": "Vegetable Growing Kit",
+        "description": "Complete kit for growing your own vegetables at home, promoting healthy and local eating.",
         "price": 28.75,
         "stock": 30,
         "categoryId": 8,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fkit-cultivos-eco.jpg%201692833322788?alt=media&token=e15d5bc4-8ee8-4798-93f3-d0e354798a21"
     },
     {
-        "name": "Barritas Energéticas Orgánicas",
-        "description": "Barritas energéticas saludables y orgánicas, ideales para llevar en actividades al aire libre",
+        "name": "Organic Energy Bars",
+        "description": "Healthy and organic energy bars, perfect for outdoor activities on the go.",
         "price": 3.99,
         "stock": 90,
         "categoryId": 9,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fbarras-energeticas.jpg%201692833349954?alt=media&token=057c2160-686c-4133-9c22-0c3a8f78bd97"
     },
     {
-        "name": "Rompecabezas 3D de Cartón Reciclado",
-        "description": "Rompecabezas tridimensional hecho de cartón reciclado, diversión y creatividad sostenible",
+        "name": "Recycled Cardboard 3D Puzzle",
+        "description": "Three-dimensional puzzle made from recycled cardboard, sustainable fun and creativity.",
         "price": 19.95,
         "stock": 25,
         "categoryId": 20,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-eco.jpeg%201692833370682?alt=media&token=df9ede1e-f6f3-485a-b87a-672a908ea764"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-eco.jpeg%201694018821176?alt=media&token=827e2118-c560-424e-ac1f-0b711b3d97ca"
     },
     {
-        "name": "Recogedor de Lluvia",
-        "description": "Sistema de recogida de agua de lluvia para el riego de plantas, conservación de recursos hídricos",
+        "name": "Rainwater Collector",
+        "description": "Rainwater collection system for plant irrigation, water resource conservation.",
         "price": 27.50,
         "stock": 20,
         "categoryId": 1,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frecolector-lluvia.webp%201692833388041?alt=media&token=7dd3c837-b7a2-492c-9ab7-5669a6fc9a46"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frecolector-lluvia.webp%201694018859902?alt=media&token=505e95d9-dfde-449a-aa99-2e7f28427eda"
     },
     {
-        "name": "Set de Sellos Reciclados",
-        "description": "Set de sellos para manualidades hechos con caucho reciclado, una opción ecológica",
+        "name": "Recycled Rubber Stamp Set",
+        "description": "Set of stamps for crafts made from recycled rubber, an eco-friendly option.",
         "price": 11.95,
         "stock": 30,
         "categoryId": 2,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fsello-reciclado.webp%201692833405594?alt=media&token=dc0c5537-59bc-4354-b1ce-d9a521bcc861"
     },
     {
-        "name": "Pañales de Tela para Adultos Ecológicos",
-        "description": "Pañales de tela ecológicos y lavables, reduciendo el impacto ambiental de los desechables",
+        "name": "Eco-Friendly Adult Cloth Diapers",
+        "description": "Eco-friendly and washable cloth diapers for adults, reducing the environmental impact of disposables.",
         "price": 32.99,
         "stock": 40,
         "categoryId": 3,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fpanales-adultos-eco.webp%201692833428093?alt=media&token=937810c7-f699-4adf-bb53-3744553b9a82"
     },
     {
-        "name": "Perfume Natural Orgánico",
-        "description": "Perfume orgánico con aceites esenciales naturales, una fragancia consciente y saludable",
+        "name": "Natural Organic Perfume",
+        "description": "Organic perfume with natural essential oils, a conscious and healthy fragrance.",
         "price": 28.50,
         "stock": 50,
         "categoryId": 4,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fperfume-eco.jpg%201692833442069?alt=media&token=8a362e3a-8aee-46a0-8ce5-c6d0f2d255c5"
     },
     {
-        "name": "Arte con Materiales Reutilizados",
-        "description": "Obra de arte elaborada con materiales reutilizados, un mensaje creativo sobre la sostenibilidad",
+        "name": "Art with Reused Materials",
+        "description": "Artwork created with reused materials, a creative message about sustainability.",
         "price": 55.00,
         "stock": 15,
         "categoryId": 5,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Farte-materiales-reciclados.jpg%201692833471810?alt=media&token=58dd289a-7972-4de7-83f8-fa3a42c17c11"
     },
     {
-        "name": "Carcasa para Celular Ecológica",
-        "description": "Carcasa para celular, con plastico reciclado amigable con el medio ambiente",
+        "name": "Eco-Friendly Cell Phone Case",
+        "description": "Cell phone case made from environmentally friendly recycled plastic.",
         "price": 22.99,
         "stock": 25,
         "categoryId": 6,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fcarcasa-celular-eco.webp%201692833495571?alt=media&token=d16b8614-a1bc-4c61-8a68-dcb4df801e63"
     },
     {
-        "name": "Vestido Sostenible de Lino",
-        "description": "Vestido de lino sostenible y fresco para el verano, una opción cómoda y ecológica",
+        "name": "Sustainable Linen Dress",
+        "description": "Sustainable and lightweight linen dress for summer, a comfortable and eco-friendly choice.",
         "price": 42.00,
         "stock": 20,
         "categoryId": 7,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fvestido-lino.jpg%201692833515325?alt=media&token=b14e0442-9370-4aad-a84e-9363b1707c74"
     },
     {
-        "name": "Kit de Cultivo de Hierbas Medicinales",
-        "description": "Kit para cultivar tus propias hierbas medicinales en casa, promoviendo la salud natural",
+        "name": "Medicinal Herbs Growing Kit",
+        "description": "Kit for growing your own medicinal herbs at home, promoting natural health.",
         "price": 24.95,
         "stock": 35,
         "categoryId": 8,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fkit-de-hierbas.jpg%201692833535331?alt=media&token=b6fa37bf-0824-4633-b2d2-704da0059453"
     },
     {
-        "name": "Aceite de Coco Orgánico",
-        "description": "Aceite de coco orgánico y prensado en frío, versátil para la cocina y el cuidado personal",
+        "name": "Organic Coconut Oil",
+        "description": "Organic and cold-pressed coconut oil, versatile for cooking and personal care.",
         "price": 9.50,
         "stock": 70,
         "categoryId": 9,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Faceite-organico.jpeg%201692833552424?alt=media&token=94d271de-6efc-405d-9d84-773a45f60a84"
     },
     {
-        "name": "Juego de Construcción con Bloques de Madera",
-        "description": "Juego de construcción con bloques de madera certificada, fomentando la creatividad y el juego sostenible",
+        "name": "Eco-Friendly Wooden Building Blocks",
+        "description": "Set of building blocks made from recycled and safe materials, fostering creativity and sustainable play.",
         "price": 28.50,
         "stock": 30,
         "categoryId": 20,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fbloques-de-madera.png%201692833592518?alt=media&token=5521b1c0-15cd-4982-b62d-5cb33781b505"
     },
     {
-        "name": "Botella de Agua de Acero Inoxidable",
-        "description": "Botella de agua reutilizable de acero inoxidable, libre de plásticos y fácil de llevar",
+        "name": "Stainless Steel Water Bottle",
+        "description": "Reusable stainless steel water bottle, free of plastics and easy to carry.",
         "price": 14.99,
         "stock": 40,
         "categoryId": 1,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fbotella-eco.webp%201692833609624?alt=media&token=00ba3fd6-bc88-42ce-a9b7-2d414f68b633"
     },
     {
-        "name": "Kit de Bordado de Hojas Caídas",
-        "description": "Kit de bordado inspirado en hojas caídas, utilizando hilos reciclados y telas naturales",
+        "name": "Falling Leaves Embroidery Kit",
+        "description": "Embroidery kit inspired by falling leaves, using recycled threads and natural fabrics.",
         "price": 17.95,
         "stock": 25,
         "categoryId": 2,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fcostura-hojas-caidas.webp%201692833629285?alt=media&token=6b567213-f0ec-4394-af4e-98e4a95749fe"
     },
     {
-        "name": "Comedero para Bebe",
-        "description": "Silla comedor para bebe, hecho con madera ecológica",
+        "name": "Baby Feeding Chair",
+        "description": "Eco-friendly baby feeding chair made with sustainable wood.",
         "price": 26.50,
         "stock": 50,
         "categoryId": 3,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fsillas-comedor-para-bebe.jpg%201692833649987?alt=media&token=40555ddb-bc1a-4269-8a9a-9da9ea80bdd2"
     },
     {
-        "name": "Champú Sólido Natural",
-        "description": "Champú sólido elaborado con ingredientes naturales y libre de envases plásticos, cuidado sostenible",
+        "name": "Natural Solid Shampoo",
+        "description": "Solid shampoo made with natural ingredients and plastic-free packaging, sustainable care.",
         "price": 12.75,
         "stock": 60,
         "categoryId": 4,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fchampu-solido.webp%201692833738791?alt=media&token=15809d4c-d7de-40e1-a89e-61c5d4a81d74"
     },
     {
-        "name": "Escultura de Metal Reciclado",
-        "description": "Escultura artística realizada con metal reciclado, un testimonio creativo de la reutilización",
+        "name": "Recycled Metal Sculpture",
+        "description": "Artistic sculpture made from recycled metal, a creative testament to reusability.",
         "price": 85.00,
         "stock": 15,
         "categoryId": 5,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fescultura-metal.jpg%201692833757246?alt=media&token=9e2a4fdc-6a5d-4941-9f86-5907cbec6d7f"
     },
     {
-        "name": "Bombillo Ecológico",
-        "description": "Bombillo LED ahorrador para iluminar tu hogar, amigable con el medio ambiente",
+        "name": "Eco-Friendly Light Bulb",
+        "description": "Energy-efficient LED light bulb for home illumination, environmentally friendly.",
         "price": 54.99,
         "stock": 35,
         "categoryId": 6,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fbombillo-eco.jpg%201692833805893?alt=media&token=eae9a283-8233-486f-87ba-16761a54cd98"
     },
     {
-        "name": "Zapatillas de Algodón Orgánico",
-        "description": "Zapatillas cómodas hechas de algodón orgánico y suelas recicladas, moda y conciencia",
+        "name": "Organic Cotton Slippers",
+        "description": "Comfortable slippers made from organic cotton and recycled soles, fashion with consciousness.",
         "price": 49.00,
         "stock": 25,
         "categoryId": 7,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fzapatilla-organica.webp%201692833024756?alt=media&token=970bd878-d254-414a-ba0d-6838b61f15d8"
     },
     {
-        "name": "Macetas Ecológicas",
-        "description": "Macetas ecológicas para sembrar diferentes tipos de planta, hecha con plastico reciclado",
+        "name": "Eco-Friendly Plant Pots",
+        "description": "Eco-friendly plant pots for various types of plants, made from recycled plastic.",
         "price": 39.95,
         "stock": 20,
         "categoryId": 8,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fmaceta-eco.png%201692834096635?alt=media&token=36729c91-ee9e-47bf-ab71-d21109f1c305"
     },
     {
-        "name": "Barras Energéticas de Frutas Secas",
-        "description": "Barras energéticas hechas con frutas secas y endulzantes naturales, snacks saludables y ecológicos",
+        "name": "Dried Fruit Energy Bars",
+        "description": "Energy bars made with dried fruits and natural sweeteners, healthy and eco-friendly snacks.",
         "price": 4.75,
         "stock": 80,
         "categoryId": 9,
         "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fbarrita-frutos-secos.jpg%201692834142552?alt=media&token=c9709fd7-9760-4463-9a6b-cc61c5e7228a"
     },
     {
-        "name": "Juego de Bloques de Construcción Ecológicos",
-        "description": "Juego de bloques de construcción hechos de materiales reciclados y seguros para los niños",
+        "name": "Eco-Friendly Wooden Construction Set",
+        "description": "Building blocks set made from recycled and safe materials, encouraging creativity and sustainable play.",
         "price": 23.50,
         "stock": 40,
         "categoryId": 20,

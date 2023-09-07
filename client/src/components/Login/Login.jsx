@@ -1,31 +1,43 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import style from "./Login.module.css";
 import axios from "axios";
-import { LoginSocialFacebook, LoginSocialGoogle } from "reactjs-social-login";
-import {FacebookLoginButton, GoogleLoginButton } from "react-social-login-buttons";
+import { LoginSocialGoogle } from "reactjs-social-login";
+import { GoogleLoginButton } from "react-social-login-buttons";
 import { useDispatch, useSelector } from "react-redux";
 import { authData } from "../../redux/action";
 import { alertAcept } from "../SweetAlert/SweetAlert";
 import loader from "../../assets/loaderGif.gif";
 
-const { VITE_SERVER_URL, VITE_FB_APP_ID, VITE_GG_APP_ID } = import.meta.env;
+const { VITE_SERVER_URL, VITE_GG_APP_ID } = import.meta.env;
 
 export const Login = () => {
   const auth = useSelector((state) => state.authData);
+  const { verificado } = useParams();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [passwordError, setPasswordError] = useState(false);
   const [loading, setLoading] = useState(false);
-
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  useEffect(()=> {
-    if (auth) navigate('/home');
-  }, [auth, navigate])
+  useEffect(() => {
+    // Verifica si verificado es una cadena "true" o "false"
+    if (verificado === "true") {
+      alertAcept("success", "Your account is verified", "Proceed to log in");
+    } else if (verificado === "false") {
+      alertAcept(
+        "error",
+        "Your account has not been verified yet",
+        "Please check your email to complete the verification process"
+      );
+    }
+  }, [verificado]);
+  useEffect(() => {
+    if (auth) navigate("/home");
+  }, [auth, navigate]);
 
   const regExEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
   const regexPassword =
@@ -85,6 +97,7 @@ export const Login = () => {
         })
         .then((res) => {
           // Manejo la respuesta del servidor, como almacenar los datos del usuario en el estado o redirigir a otra página
+          console.log(res);
           setLoading(false);
           dispatch(authData(res.data));
           navigate("/home");
@@ -94,9 +107,11 @@ export const Login = () => {
           setLoading(false);
           alertAcept(
             "error",
-            "User not created!",
+            "Login Failed!",
             error.response?.data?.error || error.message
           );
+          if (error.response?.data?.error === "User inactive")
+            navigate("/contact");
           console.error(error);
         });
     }
@@ -108,7 +123,7 @@ export const Login = () => {
 
   const handleThirdAuth = async ({ provider, data }) => {
     let picture = "";
-    console.log(data);
+
     if (provider === "facebook") {
       //Facebook
       picture = data.picture?.data?.url;
@@ -140,14 +155,15 @@ export const Login = () => {
       console.error(error?.message);
       alertAcept(
         "error",
-        "User not created!",
+        "Login Failed!",
         error.response?.data?.error || error.message
       );
+      if (error.response?.data?.error === "User inactive") navigate("/contact");
     }
   };
 
   return (
-    <div className={`${style.login} ${style.greenText}`}>
+    <main className={`${style.login} ${style.greenText}`}>
       {loading && (
         <div className={style.prodsContLoader}>
           <img src={loader} alt="Loader"></img>
@@ -220,18 +236,7 @@ export const Login = () => {
         </button>
       </form>
 
-      <div className={style.thirdParty}>
-        <LoginSocialFacebook
-          isOnlyGetCode={true}
-          appId={VITE_FB_APP_ID}
-          onLoginStart={() => console.log("started login")}
-          onResolve={handleThirdAuth}
-          onReject={(err) => {
-            console.log(err);
-          }}
-        >
-          <FacebookLoginButton />
-        </LoginSocialFacebook>
+      <section className={style.thirdParty}>
         <LoginSocialGoogle
           isOnlyGetCode={true}
           client_id={VITE_GG_APP_ID}
@@ -239,12 +244,12 @@ export const Login = () => {
           onLoginStart={() => console.log("started login")}
           onResolve={handleThirdAuth}
           onReject={(err) => {
-            console.log(err);
+            console.error(err);
           }}
         >
           <GoogleLoginButton />
         </LoginSocialGoogle>
-      </div>
+      </section>
 
       <div className={style.signUp}>
         <p className={style.dontHaveAccount}>Don&apos;t have an account?→</p>
@@ -253,6 +258,6 @@ export const Login = () => {
           <span className={style.signUpLink}>Sign up</span>
         </a>
       </div>
-    </div>
+    </main>
   );
 };

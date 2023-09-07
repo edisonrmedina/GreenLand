@@ -2,25 +2,43 @@
     {
         "name": "Admin",
         "email": "admin@gmail.com",
-        "password": "admin",
-        "origin": "google",
+        "password": "Abc123$",
+        "origin": "greenland",
         "image": "https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_640.png",
-        "roleId": "1"
+        "roleId": "1",
+        "isVerified": true,
+        "genre": "none",
+        "birth_date": "2015-12-23",
+        "phone_number": "(+5) 555-5555",
+        "country": "United States",
+        "address": "New York, NY"
     },
     {
         "name": "Guest",
         "email": "guest@gmail.com",
-        "password": "password",
-        "origin": "github",
+        "password": "Abc123$",
+        "origin": "greenland",
         "image": "https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_640.png",
-        "roleId": "2"
+        "roleId": "2",
+        "isVerified": true,
+        "genre": "female",
+        "birth_date": "2001-09-10",
+        "phone_number": "(+22) 222-5555",
+        "country": "United States",
+        "address": "New York, NY"
     },
     {
         "name": "Guest User",
         "email": "guest2@gmail.com",
-        "password": "password",
+        "password": "Abc123$",
         "origin": "greenland",
         "image": "https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_640.png",
-        "roleId": "2"
+        "roleId": "2",
+        "isVerified": true,
+        "genre": "male",
+        "birth_date": "2000-08-10",
+        "phone_number": "(+22) 222-5222",
+        "country": "United States",
+        "address": "Florida"
     }
 ]

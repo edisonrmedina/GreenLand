@@ -1,82 +1,82 @@
 [
     {
         "name": "appliances",
-        "description": "Electrodomésticos"
+        "description": "Appliances"
     },
     {
         "name": "arts-crafts",
-        "description": "Artes, Manualidades y Costura"
+        "description": "Arts, Crafts, and Sewing"
     },
     {
         "name": "baby-products",
-        "description": "Bebé"
+        "description": "Baby Products"
     },
     {
         "name": "beauty",
-        "description": "Belleza y Cuidado Personal"
+        "description": "Beauty and Personal Care"
     },
     {
         "name": "collectibles",
-        "description": "Coleccionables y Bellas Artes"
+        "description": "Collectibles and Fine Arts"
     },
     {
         "name": "electronics",
-        "description": "Electrónica"
+        "description": "Electronics"
     },
     {
         "name": "fashion",
-        "description": "Ropa, Zapatos y Joyería"
+        "description": "Clothing, Shoes, and Jewelry"
     },
     {
         "name": "garden",
-        "description": "Hogar y Cocina"
+        "description": "Home and Kitchen"
     },
     {
         "name": "grocery",
-        "description": "Comestibles y Alimentos Gourmet"
+        "description": "Grocery and Gourmet Food"
     },
     {
         "name": "handmade",
-        "description": "Hecho a Mano"
+        "description": "Handmade"
     },
     {
         "name": "hpc",
-        "description": "Salud, Hogar y Cuidado del Bebé"
+        "description": "Health, Home, and Baby Care"
     },
     {
         "name": "industrial",
-        "description": "Industrial y Científico"
+        "description": "Industrial and Scientific"
     },
     {
         "name": "mi",
-        "description": "Instrumentos Musicales"
+        "description": "Musical Instruments"
     },
     {
         "name": "mobile",
-        "description": "Teléfonos Celulares y Accesorios"
+        "description": "Cell Phones and Accessories"
     },
     {
         "name": "office-products",
-        "description": "Productos de Oficina"
+        "description": "Office Products"
     },
     {
         "name": "pets",
-        "description": "Suministros para Mascotas"
+        "description": "Pet Supplies"
     },
     {
         "name": "sporting",
-        "description": "Deportes y Aire Libre"
+        "description": "Sports and Outdoors"
     },
     {
         "name": "books",
-        "description": "Libros"
+        "description": "Books"
     },
     {
         "name": "tools",
-        "description": "Herramientas y Mejoras para el Hogar"
+        "description": "Tools and Home Improvement"
     },
     {
         "name": "toys-and-games",
-        "description": "Juguetes y Juegos"
+        "description": "Toys and Games"
     }
 ]

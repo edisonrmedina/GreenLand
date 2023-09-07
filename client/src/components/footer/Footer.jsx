@@ -5,7 +5,7 @@ import image from "../../assets/index"
 export const Footer = () => {
 
     return (
-        <div className={styled.container}>
+        <footer className={styled.container}>
             {/* <div className={styled.grupo1}>
                 <img className={styled.logo_greenland} src={image.logo_greenland} alt="logo" />
             </div> */}
@@ -18,6 +18,7 @@ export const Footer = () => {
                     <Link className={styled.links} to="/#">Privacy Policy</Link>
                     <Link className={styled.links} to="/#">License</Link>
                     <Link className={styled.links} to="/contact">Contact</Link>
+                    <Link className={styled.links} to="/undo-purchase">⇄Purchase regret</Link> {/* Nuevo botón de arrepentimiento */}
                 </div>
                 <div className={styled.right}>
                     <Link className={styled.icon_image} to="https://youtube.com/" target="_blank">
@@ -34,7 +35,7 @@ export const Footer = () => {
                     </Link>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 
